@@ -87,7 +87,7 @@ technologist is learning to build the tools that will help you learn.
     <td>YES</td>
     <td><code>*</code>, <code>()</code></td>
     <td>NO</td>
-    <td>Zoom in on new sub-expression in <code>()</code> because of [PEMDAS][]</td>
+    <td>Zoom in on new sub-expression in <code>()</code> because of [PEMDAS][pemdas]</td>
   </tr>
   <tr>
     <td><code>(10-4)</code></td>
@@ -165,4 +165,4 @@ constant expression provides a similar "foundation" for programming.
 
 * [Order of Operations: PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
 
-[PEMDAS]: https://en.wikipedia.org/wiki/Order_of_operations
+[pemdas]: https://en.wikipedia.org/wiki/Order_of_operations
