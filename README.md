@@ -87,7 +87,7 @@ technologist is learning to build the tools that will help you learn.
     <td>YES</td>
     <td><code>*</code>, <code>()</code></td>
     <td>NO</td>
-    <td>Zoom in on new sub-expression in <code>()</code> because of [PEMDAS][pemdas]</td>
+    <td>Zoom in on new sub-expression in <code>()</code> because of [PEMDAS](https://en.wikipedia.org/wiki/Order_of_operations)</td>
   </tr>
   <tr>
     <td><code>(10-4)</code></td>
