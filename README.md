@@ -43,7 +43,7 @@ data."
 ![Math Expression: Step 1](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step1.5.png)
 
 Since both `4` and `10` are plain old data, it can apply `-` to them and produce
-`6` &mdash; a _constant expression_.
+`6` — a _constant expression_.
 
 So what JavaScript now sees looks like this:
 
