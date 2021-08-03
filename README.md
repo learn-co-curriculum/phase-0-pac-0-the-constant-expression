@@ -73,86 +73,18 @@ code, try out the code; if you prefer diagrams, draw a diagram; if tables make
 more sense to you, build a table. An important part of learning to be a
 technologist is learning to build the tools that will help you learn.
 
-<table border="1" cellpadding="4" cellspacing="0">
-  <tr>
-    <th>Expression</th>
-    <th>Has Operators?</th>
-    <th>Operators</th>
-    <th>Are we done?</th>
-    <th>Next Step</th>
-  </tr>
-  
-  <tr>
-    <td><code>3*(10-4)</code></td>
-    <td>YES</td>
-    <td><code>*</code>, <code>()</code></td>
-    <td>NO</td>
-    <td>Zoom in on new sub-expression in <code>()</code> because of PEMDAS</td>
-  </tr>
-  <tr>
-    <td><code>(10-4)</code></td>
-    <td>YES</td>
-    <td><code>-</code></td>
-    <td>NO</td>
-    <td>Evaluate sub-expressions</td>
-  </tr>
-  <tr>
-    <td><code>10</code></td>
-    <td>NO</td>
-    <td>NONE</td>
-    <td>YES</td>
-    <td>Zoom in on expression <code>10</code>. Constant expression! Return the value of the constant, we're done!</td>
-  </tr>
-  <tr>
-    <td><code>4</code></td>
-    <td>NO</td>
-    <td>NONE</td>
-    <td>YES</td>
-    <td>Zoom in on expression <code>4</code>. Constant expression! Return the value of the constant, we're done!</td>
-  </tr>
-  <tr>
-    <td><code>(10-4)</code></td>
-    <td>YES</td>
-    <td><code>-</code></td>
-    <td>NO</td>
-    <td>Replace <code>( 10 - 4 )</code> with application of <code>-</code> to <code>10</code> and <code>4</code> making <code>6</code></td>
-  </tr>
-  <tr>
-    <td><code>3*6</code></td>
-    <td>YES</td>
-    <td><code>*</code></td>
-    <td>NO</td>
-    <td>Zoom out and replace the sub-expression with its value we just determined</td>
-  </tr>
-  <tr>
-    <td><code>3</code></td>
-    <td>NO</td>
-    <td>NONE</td>
-    <td>YES</td>
-    <td>Zoom in on expression <code>3</code>. Constant expression! Return the value of the constant, we're done!</td>
-  </tr>
-  <tr>
-    <td><code>6</code></td>
-    <td>NO</td>
-    <td>NONE</td>
-    <td>YES</td>
-    <td>Zoom in on expression <code>6</code>. Constant expression! Return the value of the constant, we're done!</td>
-  </tr>
-  <tr>
-    <td><code>3*6</code></td>
-    <td>YES</td>
-    <td><code>*</code></td>
-    <td>NO</td>
-    <td>Apply <code>*</code> to <code>3</code> and <code>6</code> making <code>18</code></td>
-  </tr>
-  <tr>
-    <td><code>18</code></td>
-    <td>NO</td>
-    <td>NONE</td>
-    <td>YES</td>
-    <td>Constant expression! Return the value of the constant, we're done!</td>
-  </tr>
-</table>
+| Expression | Has Operators? | Operators | Are we done? | Next Step |
+| --- | --- | --- | --- | --- |
+| 3*(10-4) | YES | *, () | NO | Zoom in on new sub-expression in () because of PEMDAS |
+| (10-4) | YES | - | NO | Evaluate sub-expressions |
+| 10 | NO | NONE | YES | Zoom in on expression 10. Constant expression! Return the value of the constant, we're done! |
+| 4 | NO | NONE | YES | Zoom in on expression 4. Constant expression! Return the value of the constant, we're done! |
+| (10-4) | YES | - | NO | Replace ( 10 - 4 ) with application of - to 10 and 4 making 6 |
+| 3*6 | YES | * | NO | Zoom out and replace the sub-expression with its value we just determined |
+| 3 | NO | NONE | YES | Zoom in on expression 3. Constant expression! Return the value of the constant, we're done! |
+| 6 | NO | NONE | YES | Zoom in on expression 6. Constant expression! Return the value of the constant, we're done! |
+| 3*6 | YES | * | NO | Apply * to 3 and 6 making 18 |
+| 18 | NO | NONE | YES | Constant expression! Return the value of the constant, we're done! |
 
 ## Conclusion
 
