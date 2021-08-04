@@ -2,14 +2,15 @@
 
 ## Learning Goals
 
-* Identify the _constant expression_
-* Explain how the _constant expression_ stops evaluation
+- Identify the _constant expression_
+- Explain how the _constant expression_ stops evaluation
 
 ## Introduction
 
 Lets repeat our definition of _expression_
 
-> **Definition**: Expression: A combination of information, called _data_, and _symbols_ indicating how to combine _data_, called _operators_.
+> **Definition**: Expression: A combination of information, called _data_, and
+> _symbols_ indicating how to combine _data_, called _operators_.
 
 What if we were to make an expression that had no _operators_? What if it only
 had _data_. For example, what if we just pass `9000` into a REPL:
@@ -73,18 +74,18 @@ code, try out the code; if you prefer diagrams, draw a diagram; if tables make
 more sense to you, build a table. An important part of learning to be a
 technologist is learning to build the tools that will help you learn.
 
-| Expression | Has Operators? | Operators | Are we done? | Next Step |
-| --- | --- | --- | --- | --- |
-| `3*(10-4)` | YES | `*`, `()` | NO | Zoom in on new sub-expression in `()` because of PEMDAS |
-| `(10-4)` | YES | `-` | NO | Evaluate sub-expressions |
-| `10` | NO | NONE | YES | Zoom in on expression `10`. Constant expression! Return the value of the constant, we're done! |
-| `4` | NO | NONE | YES | Zoom in on expression `4`. Constant expression! Return the value of the constant, we're done! |
-| `(10-4)` | YES | `-` | NO | Replace `( 10 - 4 )` with application of `-` to `10` and `4` making `6` |
-| `3*6` | YES | `*` | NO | Zoom out and replace the sub-expression with its value we just determined |
-| `3` | NO | NONE | YES | Zoom in on expression `3`. Constant expression! Return the value of the constant, we're done! |
-| `6` | NO | NONE | YES | Zoom in on expression `6`. Constant expression! Return the value of the constant, we're done! |
-| `3*6` | YES | `*` | NO | Apply `*` to `3` and `6` making `18` |
-| `18` | NO | NONE | YES | Constant expression! Return the value of the constant, we're done! |
+| Expression | Has Operators? | Operators | Are we done? | Next Step                                                                                      |
+| ---------- | -------------- | --------- | ------------ | ---------------------------------------------------------------------------------------------- |
+| `3*(10-4)` | YES            | `*`, `()` | NO           | Zoom in on new sub-expression in `()` because of PEMDAS                                        |
+| `(10-4)`   | YES            | `-`       | NO           | Evaluate sub-expressions                                                                       |
+| `10`       | NO             | NONE      | YES          | Zoom in on expression `10`. Constant expression! Return the value of the constant, we're done! |
+| `4`        | NO             | NONE      | YES          | Zoom in on expression `4`. Constant expression! Return the value of the constant, we're done!  |
+| `(10-4)`   | YES            | `-`       | NO           | Replace `( 10 - 4 )` with application of `-` to `10` and `4` making `6`                        |
+| `3*6`      | YES            | `*`       | NO           | Zoom out and replace the sub-expression with its value we just determined                      |
+| `3`        | NO             | NONE      | YES          | Zoom in on expression `3`. Constant expression! Return the value of the constant, we're done!  |
+| `6`        | NO             | NONE      | YES          | Zoom in on expression `6`. Constant expression! Return the value of the constant, we're done!  |
+| `3*6`      | YES            | `*`       | NO           | Apply `*` to `3` and `6` making `18`                                                           |
+| `18`       | NO             | NONE      | YES          | Constant expression! Return the value of the constant, we're done!                             |
 
 ## Conclusion
 
@@ -95,6 +96,6 @@ constant expression provides a similar "foundation" for programming.
 
 ## Resources
 
-* [Order of Operations: PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
+- [Order of Operations: PEMDAS](https://www.mathsisfun.com/operation-order-pemdas.html)
 
 [pemdas]: https://en.wikipedia.org/wiki/Order_of_operations
