@@ -13,9 +13,9 @@ Lets repeat our definition of _expression_
 > _symbols_ indicating how to combine _data_, called _operators_.
 
 What if we were to make an expression that had no _operators_? What if it only
-had _data_. For example, what if we just pass `9000` into a REPL:
+had _data_. For example, what if we just pass `9000` into a REPL console:
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/FlatPrimaryLanservers?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/FlatPrimaryLanservers?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 In response, we get `9000`. This type of expression is known as the _constant
 expression_ and it's very important, although very boring.
