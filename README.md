@@ -17,7 +17,7 @@ had _data_. For example, what if we just pass `9000` into a REPL:
 
 <iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-> **Reminder**: Click the "play" button to clear any old or unwanted code in
+> **Reminder**: Click the "run" button to clear any old or unwanted code in
 > your code sandbox and reset the console!
 
 In response, we get `9000`. This type of expression is known as the _constant
