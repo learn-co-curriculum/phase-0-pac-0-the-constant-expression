@@ -15,7 +15,7 @@ Lets repeat our definition of _expression_
 What if we were to make an expression that had no _operators_? What if it only
 had _data_. For example, what if we just pass `9000` into a REPL:
 
-<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?embed=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 > **Reminder**: Click the "run" button to clear any old or unwanted code in
 > your code sandbox and reset the console!
