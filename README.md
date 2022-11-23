@@ -35,7 +35,7 @@ addition, subtraction.
 
 We'll start with the expression:
 
-![Math Expression: Step 0](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step0.png)
+![Math Expression: Step 0. 3*(10-4)](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step0.png)
 
 JavaScript's mission is to find a constant piece of data or a _constant
 expression_. Because of `()`, it goes there first. The `(10 - 4)` is clearly
@@ -44,20 +44,20 @@ makes a "tree" of the two sides of the operator (`-`) and then looks on each
 side to see whether those sides are _constant expressions_ i.e. "plain old
 data."
 
-![Math Expression: Step 1](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step1.5.png)
+![Math Expression: Step 1. The expression is divided into two parts subtraction and multiplication. The subtraction is evaluated first because of the parenthesis that surround it. Please refer to Resources section at the end of this page for the order of operations.](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step1.5.png)
 
 Since both `4` and `10` are plain old data, it can apply `-` to them and produce
 `6` — a _constant expression_.
 
 So what JavaScript now sees looks like this:
 
-![Math Expression: Step 2](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step4.png)
+![Math Expression: Step 2. 3 * 6](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step4.png)
 
 Here again, JavaScript checks both sides of the operator `*` and, because both
 sides are now _constant expressions_, applies the `*` to `3` and `6` and creates
 a new _constant expression_, the answer (or "return value"):
 
-![Math Expression: Step 3](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step5.png)
+![Math Expression: Step 3. number 18](https://curriculum-content.s3.amazonaws.com/phase-0/the-constant-expression/Image_54_Step5.png)
 
 Whew! Fortunately, JavaScript does _all this work_ of building a tree of
 operators and returning a value very quickly!
